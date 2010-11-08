@@ -1,0 +1,94 @@
+﻿root { 
+    display: block;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+	height: 100%;
+	min-height: 100%;
+	/*background: url(./s.jpg) repeat;*/
+}
+
+body {
+    background-color: white;
+    width: 800px;
+	margin: 0 auto;
+	padding: 0;
+    border: none;
+	font-family: Georgia;
+	font-size: 10pt;
+	
+}
+
+li {
+    list-style: none;
+}
+
+li span, li p  {
+	font-weight: bold;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+
+#topline, #menu, #main, #navigator, #control {
+	margin: 0 auto;
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: white;
+	height: 40px;
+	/*border: 1px dotted blue;*/
+}
+
+#main {
+	height: 50%;
+	min-height: 480px;
+	overflow: auto;
+}
+
+#debug {
+	font-size: 10pt;
+	overflow: auto;
+	left: 0;
+	top: 80%;
+    width: 40%;
+	height: 20%;
+    background-color: white;
+	border: 1px dotted blue;
+	position: absolute;
+	z-index: 1;
+	/*visibility: hidden;*/
+}
+#debug p {
+margin: 0;
+	padding: 0;
+}
+
+#status {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	z-index: 1;
+	left: 90%;
+	top: 0%;
+	width: 10%;
+	height: 10%;
+	visibility: hidden;
+}
+
+#introtext {
+	float: right;
+    position: relative;
+	width: 200px;
+}
+
+#intrologo {
+	float: right;
+    position: relative;
+}
+
